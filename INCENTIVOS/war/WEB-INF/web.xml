@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<web-app version="3.1" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+
+
+<servlet>
+
+<servlet-name>login-servlet</servlet-name>
+
+<servlet-class>com.edu4java.servelets.LoginServlet</servlet-class>
+
+</servlet>
+
+
+
+<servlet-mapping>
+
+<servlet-name>login-servlet</servlet-name>
+
+<url-pattern>/consulta</url-pattern>
+
+</servlet-mapping>
+
+</web-app>
